@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <main class="main-section">
+        <section class="section section-left">
+            <nav>
+                <div class="logo-container">
+                    <img src="assept/img/Logo.png" alt="">
+                </div>
+            </nav>
+            <div class="site-left">
+                <textarea type="text" placeholder="Ingrese el texto aqui" id="frase">
+                </textarea>
+                <p class="info"><img src="assept/img/bi_exclamation-circle-fill.png" alt="&excl;">Solo letras minusculas y sin acentos</p>
+                <div class="botones">
+                    <button class="blue" id="btnEncriptar">Encriptar</button>
+                    <button class="white" id="btnDesifrar">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="section section-rigth">
+            <div class="img-container active" id="imagen">
+                <img src="assept/img/Muñeco.png" alt="imagen" >
+            </div>
+            <h2 id="encriptado" class="mensaje">Ningun mensaje fue encontrado</h2>
+            <!-- <p class="active" >Ingrese el texto que desees encriptar o desencriptar</p> -->
+            <p id="desifrado"></p>
+            <button class="desactivar white" id="btnCopiar">copiar</button>
+        </section>
+    </main>
+    <footer>
+        &copy;todos los derechos reservados
+    </footer>
+    <script src="./challenge.js"></script>
+</body>
+</html>
